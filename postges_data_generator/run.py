@@ -1,5 +1,5 @@
-from postges_generation.db import select, insert_into_clients
-from postges_generation.generate_data import *
+from postges_data_generator.db import select, insert_into_clients
+from postges_data_generator.generate_data import *
 import datetime
 
 print('start generate data', str(datetime.datetime.now())[0:19])
@@ -15,6 +15,3 @@ def call_insert_into_table(client_id, address, through_id):
 print('start inset data   ', str(datetime.datetime.now())[0:19])
 call_insert_into_table(client_id_data, address_data, through_id_data)
 print('end inset data     ', str(datetime.datetime.now())[0:19])
-
-#s = select()
-#print(s)
