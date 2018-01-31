@@ -19,5 +19,3 @@ res = parse(row_data)
 with open('result.txt', "w") as f:
     for i in range(len(res)):
         f.write('%s' % res[i] + '\n')
-
-
