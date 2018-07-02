@@ -1,4 +1,4 @@
-CREATE TABLE public.clients  (
+CREATE TABLE public.clients (
 	id        	int4 NOT NULL,
 	client_id 	varchar(1024) NOT NULL,
 	address   	varchar(1024) NOT NULL,

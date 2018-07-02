@@ -1,3 +1,4 @@
+'''
 import datetime
 import time
 
@@ -12,3 +13,8 @@ print(unixtime_2)
 print(unixtime_2 - unixtime_1)
 
 #print(time.mktime((datetime.datetime.now()).timetuple())
+'''
+
+x = '79265694331'
+y = x[1:]
+print(y)
